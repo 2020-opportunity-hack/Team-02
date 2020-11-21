@@ -11,6 +11,7 @@ import {
 } from './Components/pages/Programs';
 import About from './Components/pages/About';
 import Blog from './Components/pages/Blog';
+import Articles from './Components/pages/Articles';
 import Home from "./Components/pages/Home";
 import GetInvolved from "./Components/pages/Get_Involved/GetInvolved.component";
 import GlobalStyles from "./Styles/GlobalStyles";
@@ -32,7 +33,9 @@ function App() {
       <Route path="/blog">
         <Blog />
       </Route>
-
+      <Route path="/articles">
+        <Articles />
+      </Route>
       <Route path="/get-involved">
         <GetInvolved />
       </Route>

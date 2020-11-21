@@ -9,12 +9,13 @@ left: 0px;
 border-radius: 0px;
 display: flex;
 justify-content: center;
+flex-direction: column;
 `;
 
 export const Card = styled.div`
-margin: 0 20%;
-padding: 10%;
-border-radius: 20px;
+margin: 2% 20%;
+padding: 3%;
+border-radius: 10px;
 ${'' /* position: absolute; */}
 box-shadow: 0px 4px 20px 0px ${colorObj.dark};
 `;
